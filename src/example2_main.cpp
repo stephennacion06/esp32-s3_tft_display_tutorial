@@ -1,10 +1,6 @@
 /*
   Example sketch with 3 analogue meters on the left (wider meters) and 3 buttons on the right.
 
-  The analogue meter code is based on Bodmer's HX8357 example.
-  In this version the meters are widened (using a scale factor of 1.3333)
-  so that they almost fill the entire left column (≈320 pixels wide).
-
   The right column (320–480) displays 3 equally spaced buttons.
   Each button is clickable; every click for each channel cycles its text through:
     "V"  →  "A"  →  "R"
